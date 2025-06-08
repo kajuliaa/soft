@@ -1,5 +1,6 @@
 # Retrieval-Augmented Question Answering System
 This application retrieves latest information from `The Batch` and answer users question in field of AI News.
+
 DEMO: https://streamable.com/sci6di
 
 ## Instructions to run
