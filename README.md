@@ -53,4 +53,4 @@ python ingestion.py
 streamlit run app.py
 ```
 # Improvements
-- all images from article should be get, not only first one
+- all images from article should be get, not only first one (saw already after ingestion, that article can contain multiple images)
