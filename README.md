@@ -4,7 +4,7 @@ This project implements a Retrieval-Augmented Generation system that answers use
 DEMO: https://streamable.com/sci6di
 ## 🛠️ Technology Stack
 
-| Layer               | Tool/Model                        | Reasoning                                                                 |
+|                | Tool/Model                        | Reasoning                                                                 |
 |--------------------|-----------------------------------|---------------------------------------------------------------------------|
 | **Embedding Model**| `mxbai-embed-large` (via Ollama)  | Open-source, locally runnable, high-quality text embedding for semantic retrieval. |
 | **Vector Database**| ChromaDB                          | Lightweight, persistent vector store with metadata filtering capabilities. |
