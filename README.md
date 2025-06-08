@@ -15,7 +15,7 @@ DEMO: https://streamable.com/sci6di
 4. Create enviroment and install dependencies:
    - `conda`
     ```bash
-   conda create -n ai-rag-env python=3.10
+   conda create -n ai-rag-env python=3.11.3
    conda activate ai-rag-env
    pip install -r requirements.txt
     ```
