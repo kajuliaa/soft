@@ -1,0 +1,67 @@
+{
+  "query": "AI in healthcare",
+  "retrieval": [
+    {
+      "title": "The Batch: Training 1 Trillion Parameters, Medical AI Gets a Shot in the Arm, Does Bert Have Common Sense?, Revitalizing Chess",
+      "url": "https://www.deeplearning.ai/the-batch/issue-57/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: The primary duty of the healthcare system is to ensure patient wellbeing. AI is gaining acceptance in medicine, but widespread adoption depends on compensating hospitals for their work.\nCourse 4 of our NLP Specialization, which covers Attention Models, will be available next week! Pre-enroll now\nAI has humbled human chess masters. Now it’s helping them take the game to the next level."
+    },
+    {
+      "title": "The Batch: Detecting Fake News, Fighting Climate Change, Seeing Into the Future, Rescue Robots, and More AI News",
+      "url": "https://www.deeplearning.ai/the-batch/issue-viii/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Healthcare is one of many sectors being transformed by AI. I have a personal interest in it, since my father worked on machine learning for diagnosis of liver diseases almost 40 years ago. It’s thanks partly to this work that I learned about AI from an early age. He recently gave me his hard copy of 1980 conference proceedings containing a paper he wrote on the subject, and it’s one of my most treasured possessions."
+    },
+    {
+      "title": "The Batch: AI For Medicine Special! Eric Topol’s Planetary Health System, Discovering Drugs, Diagnosing Heart Disease",
+      "url": "https://www.deeplearning.ai/the-batch/issue-35/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": ". In this special issue of The Batch, we look at how AI is having an impact in medical diagnosis, prognosis, treatment, and data extraction. We hope you’ll join the medical AI revolution and help create a healthier world."
+    },
+    {
+      "title": "The Batch: Predicting the Next Pandemic, Driverless Cars Go Driverless, Managing Medical Uncertainty, Data-Efficient Vision Transformers",
+      "url": "https://www.deeplearning.ai/the-batch/issue-143/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Hospitals across the United States are relying on AI to keep patients safe."
+    },
+    {
+      "title": "The Batch: Robots Supervise Robots, Bad Labels Plague Datasets, Large Language Models Learn Chinese, Transformers Assimilate GANs",
+      "url": "https://www.deeplearning.ai/the-batch/issue-87/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: Transformers, with their roots in language processing, might answer the age-old question of how many words an image is worth.\nJoin Fei-Fei Li, Curtis Langlotz, and Andrew Ng to explore the future of AI in healthcare on April 29, 2021, at 10 a.m. Pacific Time. Co-hosted by DeepLearning.AI and Stanford Human-Centered Artificial Intelligence and supported by Stanford Center for Artificial Intelligence in Medicine & Imaging. Sign up and submit questions or topics"
+    },
+    {
+      "title": "Medical AI Advances, Chatbots Work the Drive-Thru, ChatGPT Racks Up Server Fees, Image Generators Get an Upgrade",
+      "url": "https://www.deeplearning.ai/the-batch/issue-209/",
+      "image_url": "https://www.deeplearning.ai/_next/image/?url=https%3A%2F%2Fdl-staging-website.ghost.io%2Fcontent%2Fimages%2F2023%2F08%2Funnamed--24--1.jpg&w=3840&q=75",
+      "snippet": "We’re thinking: Medical AI systems that perform well in the lab often fail in the clinic. For instance, a neural network may outperform humans at cancer diagnosis in a specific setting but, having been trained and tested on the same data distribution, isn’t robust to changes in input (say, images from different hospitals or patients from different populations)"
+    },
+    {
+      "title": "Docs Wary of Medical AI, LLMs for Robots, Siemens' Industrial-Strength Language Model, Testing LLMs",
+      "url": "https://www.deeplearning.ai/the-batch/issue-225/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: We have great faith that AI can improve medical care, but we owe it to society to document efficacy and safety through careful studies. Machine learning algorithms are powerful, but they can suffer from data drift and concept drift, which leads them to work in experiments but not in practice"
+    },
+    {
+      "title": "The Batch: AI For Medicine Special! Eric Topol’s Planetary Health System, Discovering Drugs, Diagnosing Heart Disease",
+      "url": "https://www.deeplearning.ai/the-batch/issue-35/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: Just the thought of AI saving somebody from a stroke makes our hearts skip a beat.\nTo learn how you can use AI to diagnose illnesses, check out Course 1 of the AI for Medicine Specialization from deeplearning.ai.\nAn AI-driven alarm system helps rescue patients before infections become fatal."
+    },
+    {
+      "title": "The Batch: Pandemic Triage, Asia's AI Advantage, Detecting Deepfakes, Cleaning Oceans, Music Industry in a Box",
+      "url": "https://www.deeplearning.ai/the-batch/issue-38/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: Although the privacy, data aggregation, and data cleaning issues are formidable, systems like this might help us figure out who to allow back to work, who to keep at home, and who needs special care.\nBuild a machine learning algorithm to diagnose chest x-rays and 3D MRI brain images. Enroll in the AI for Medicine Specialization.\nA machine learning model is scanning the oceans for the glint of garbage."
+    },
+    {
+      "title": "The Batch: AI For Medicine Special! Eric Topol’s Planetary Health System, Discovering Drugs, Diagnosing Heart Disease",
+      "url": "https://www.deeplearning.ai/the-batch/issue-35/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Despite significant research progress, there’s still a long way to go. Jumping into AI for medicine now is like jumping into AI for computer vision back in 2012.\nFor those who are ready to make the leap, deeplearning.ai is proud to introduce the AI for Medicine Specialization. This new series of courses will teach you the machine learning techniques you need to build a wide range of medical applications."
+    }
+  ],
+  "gemini_response": "Okay, I can summarize the information about AI in healthcare from the provided text and images.\n\n**AI's Impact and Potential in Healthcare:**\n\n*   **Wide Range of Applications:** AI is impacting medical diagnosis, prognosis, treatment, and data extraction. It's being explored for applications like diagnosing chest X-rays, assisting with mental health, and interpreting electrocardiograms.\n*   **Diagnosis and Accuracy:** AI is being used to diagnose illnesses, with deep learning models showing promise in medical imagery analysis, sometimes performing as well as human professionals in diagnosing diseases. An AI algorithm even outperformed biopsies in grading the aggressiveness of sarcomas in a study.\n*   **Improved Healthcare:** There's widespread excitement about AI's potential to improve healthcare in the near term.\n*   **Early Detection and Prevention:** AI-driven systems are being used to rescue patients before infections become fatal and to save people from strokes.\n*   **Personalized Treatment:** AI's enhanced accuracy can lead to quicker diagnosis and more personalized treatment for high-risk patients.\n*   **Assisting Physicians:** AI is assisting physicians in procedures. For example, robotic tools use AI to stabilize shaking in the operator’s hands when suturing tiny incisions on blood vessels.\n\n**Challenges and Considerations:**\n\n*   **Deployment Barriers:** There are challenges hindering the widespread deployment of AI-radiology systems.\n*   **Data Issues:** Medical AI systems can fail in the clinic if they aren't robust to changes in input data (images from different hospitals or patients from different populations). Algorithms can suffer from data drift and concept drift, leading to problems in real-world practice.\n*   **Efficacy and Safety:** Careful studies are needed to document the efficacy and safety of AI in medical care.\n*   **Human Factors:** When building AI systems for the elderly, technologists and healthcare practitioners must consider compassion and respect for the people who will use them, as some older people may resent being monitored by electronic systems.\n*   **Study Limitations:** Studies comparing AI with human clinicians may suffer from poor controls, inconsistent metrics, and a lack of independent validation.\n\n**Other Key Points:**\n\n*   **FDA Regulation:** The U.S. Food and Drug Administration (FDA) is beginning to regulate AI systems in healthcare.\n*   **Focus on Patient Wellbeing:** The primary duty of the healthcare system is to ensure patient wellbeing, and AI adoption depends on compensating hospitals for their work.\n*   **Continued Research and Development:** Despite progress, there's still a long way to go in AI for medicine.\n\nIn short, AI holds great promise for revolutionizing healthcare, but careful development, validation, and ethical considerations are crucial for its successful and safe implementation.",
+  "duration": 4.02
+}

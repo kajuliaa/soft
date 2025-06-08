@@ -1,0 +1,67 @@
+{
+  "query": "How is generative AI used in education?",
+  "retrieval": [
+    {
+      "title": "Problematic White House AI Policy, Parked Cruise Robotaxis, Transparency For Foundation Models, Synthetic Data Helps Image Generators",
+      "url": "https://www.deeplearning.ai/the-batch/issue-221/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Just as web search and word processing have become essential skills in the workplace, using generative AI soon will become a baseline skill set expected by every employer. This highly accessible, general-purpose technology is suitable for numerous tasks. It’s already used in copyediting, customer service, brainstorming, summarizing documents, and more. And many more uses are yet to be identified. \nThe course covers:"
+    },
+    {
+      "title": "Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server",
+      "url": "https://www.deeplearning.ai/the-batch/issue-268/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Last week I spoke at Coursera Connect, the company’s annual conference in Las Vegas, where a major topic was AI and education. There has been a lot of hype about generative AI’s ability to transform industries overnight. Certainly many industries — including education — will be transformed. But we’re about 15 years into the deep learning revolution, and we’re not yet done identifying and building useful deep learning applications"
+    },
+    {
+      "title": "Top AI Stories of 2022: AI Gets Creative, Relief for Coders, Language Models You Can Trust, One Model to Do Them All, Vision Transformers Bust Loose",
+      "url": "https://www.deeplearning.ai/the-batch/issue-176/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "The vast majority of economic value created by AI today comes through the tool of supervised learning, trained to generate short labels (such as spam/not-spam) or a sequence of labels (such as a transcript of audio). This year, generative AI, which is built on top of supervised learning, arrived as a second major tool that enables AI to generate complex and compelling outputs such as images or paragraphs of text."
+    },
+    {
+      "title": "Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server",
+      "url": "https://www.deeplearning.ai/the-batch/issue-268/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": ". Despite the exciting progress to date with generative AI, I expect that a decade from now we will still be far from finished identifying and building generative AI applications for education and numerous other sectors."
+    },
+    {
+      "title": "Autonomous Coding Agents, Instability at Stability AI, Mamba Mania, What Users Do With GenAI",
+      "url": "https://www.deeplearning.ai/the-batch/issue-244/",
+      "image_url": "https://www.deeplearning.ai/_next/image/?url=https%3A%2F%2Fdl-staging-website.ghost.io%2Fcontent%2Fimages%2F2024%2F04%2FThe-Batch-ads-and-exclusive-banners---2024-04-10T142101.340.png&w=3840&q=75",
+      "snippet": "Why it matters: It’s clear that millions of people use generative AI but less clear how they use it. Understanding how and where they actually apply it is helpful for anyone who aims to develop new generative AI products and services or plans to integrate the tech into their organization.\nWe’re thinking: While it’s encouraging that more than a fifth of U.S. adults have tried ChatGPT,  it also suggests huge room for growth in generative AI at large."
+    },
+    {
+      "title": "Public Attitudes Toward AI, Wanted: Prompt Engineers, AI Chips Slip Through U.S. Trade Ban, Efficient Reinforcement Learning",
+      "url": "https://www.deeplearning.ai/the-batch/issue-190/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Generative AI (Gen AI) offers huge opportunities for AI engineers to build applications that make the world a better place"
+    },
+    {
+      "title": "Public Attitudes Toward AI, Wanted: Prompt Engineers, AI Chips Slip Through U.S. Trade Ban, Efficient Reinforcement Learning",
+      "url": "https://www.deeplearning.ai/the-batch/issue-190/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Generative AI is taking off, and along with it excitement and hype about the technology’s potential. I encourage you to think of it as a general-purpose technology (GPT, not to be confused with the other GPT: generative pretrained transformer). Like deep learning — and electricity — generative AI is useful not just for a single application, but for a multitude of applications that span many corners of the economy"
+    },
+    {
+      "title": "Robot Metal Workers, Better Pay for Data Wranglers, Building a South African AI Hub, Collaborative Language Model",
+      "url": "https://www.deeplearning.ai/the-batch/issue-191/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "In the era of generative AI, we’ll see many creative use cases for intentionally using one model to generate data to train another. This is an exciting technical trend, even as we keep in mind the need to move forward in ways that are legal and fair."
+    },
+    {
+      "title": "ChatGPT Keeps Your Secrets, Microsoft Embraces GenAI Risk, Google Demands GenAI Disclosure",
+      "url": "https://www.deeplearning.ai/the-batch/issue-214/",
+      "image_url": "https://www.deeplearning.ai/_next/image/?url=https%3A%2F%2Fdl-staging-website.ghost.io%2Fcontent%2Fimages%2F2023%2F09%2Funnamed--55--1.png&w=3840&q=75",
+      "snippet": "Now that we have added generative AI to our toolbox, it will take years more to explore all its uses. (If you want to learn how to build applications using generative AI, please check out our short courses!)"
+    },
+    {
+      "title": "Google Gets Character.AI Co-Founders, Ukraine's Aquatic Drones, AI Recruiting Tools Fuel Arms Race, ASCII Art Defeats LLM Guardrails",
+      "url": "https://www.deeplearning.ai/the-batch/issue-261/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "These courses teach coding in a way that is aligned with these trends: (i) We teach how to write code to use AI to carry out tasks, and (ii) Unlike some instructors who are still debating how to restrict the use of ChatGPT, we embrace generative AI as a coding companion and show how to use it to accelerate your learning. \nTo explain these two trends in detail:"
+    }
+  ],
+  "gemini_response": "While the provided text doesn't offer specific examples of how generative AI is currently used *within* education, it does mention the following relevant points:\n\n*   **Transformation of Education:** Generative AI has the potential to transform industries, including education, although this transformation is still in its early stages.\n*   **Future Applications:** It's expected that many more generative AI applications for education will be identified and built in the coming years.\n*   **Upskilling:** Generative AI is likely to become a baseline skill expected by employers, so educational institutions may need to incorporate it into their curricula. The \"Generative AI for Everyone\" course on Coursera is designed to help anyone learn how to apply generative AI.\n*   **Coding Companion:** Generative AI tools like ChatGPT can be used as coding companions to accelerate learning.\n*   **Content Creation:** Generative AI can assist people in creating content, which could be useful for both educators and students.",
+  "duration": 1.89
+}

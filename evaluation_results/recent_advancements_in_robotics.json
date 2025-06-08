@@ -1,0 +1,67 @@
+{
+  "query": "Recent advancements in robotics",
+  "retrieval": [
+    {
+      "title": "The Batch: GPT-3 For All, DeepMind's Goldmine, Facebook Unfriends Face Recognition, Empowering Robots To Find What They Need",
+      "url": "https://www.deeplearning.ai/the-batch/issue-117/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "To interact with the world, a robot needs to know which items to grab, which items to avoid, and which joints to move in the process. A new method aims to improve a machine’s ability to determine and locate points of interest."
+    },
+    {
+      "title": "The Batch: Hopes for 2022 from Alexei Efros, Abeba Birhane, Yoav Shoham, Chip Huyen, Matt Zeiler, Wolfram Burgard, Yale Song",
+      "url": "https://www.deeplearning.ai/the-batch/issue-125/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "After decades of programming robots to act according to rules tailored for specific situations, roboticists now embrace machine learning as the most promising path to building machines that achieve human performance in tasks like the warehouse robot’s pick-and-place. Deep learning provides excellent visual perception including object recognition and semantic segmentation. Meanwhile, reinforcement learning offers a way to learn virtually any task"
+    },
+    {
+      "title": "The Batch: AI With Fashion Sense, Robot Farmers, Schooling Alexa, Sharper Computer Vision",
+      "url": "https://www.deeplearning.ai/the-batch/issue-iv/",
+      "image_url": "https://www.deeplearning.ai/_next/image/?url=https%3A%2F%2Fdl-staging-website.ghost.io%2Fcontent%2Fimages%2F2022%2F09%2Ff64d116e-1cda-4049-9f74-6d578ad3b5d5.jpg&w=3840&q=75",
+      "snippet": "Why it’s better: Their system’s performance scales almost linearly with higher dimensions, outperforming algorithms like A* and RRT* that bog down in larger or more complex spaces. It proved 10 times faster with a three-link robot, 20 times faster with four links, and 30 times faster controlling a three link arm in six dimensions."
+    },
+    {
+      "title": "ChatGPT Mania, Crypto Fiasco Defunds AI Safety, Alexa Makes Up Stories, Vision Model Looks Into the Future",
+      "url": "https://www.deeplearning.ai/the-batch/issue-174/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: Giving robots the ability to predict visual changes could make for a generation of much safer and more capable machines. We look forward to future work that integrates this capability with planning algorithms."
+    },
+    {
+      "title": "The Batch: Robot Warehouse Workers, Cities Under Surveillance, Chatbot Comedian, Automated Drug Design",
+      "url": "https://www.deeplearning.ai/the-batch/issue-25/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "Andrew\n\nRobots are moving into a job that traditionally required the human touch.\n\nWhat’s new: A commercial warehouse that ships electrical supplies deployed AI-driven robotic arms from Covariant, a high-profile Silicon Valley robotics firm. Trained using a hybrid of imitation and reinforcement learning, the new machines are far better than earlier bots at sorting items into boxes."
+    },
+    {
+      "title": "DeepSeek’s Open Reasoning Model, Affordable Humanoid Robots, Texas’ Restrictive AI Law, GenAI for Electronics",
+      "url": "https://www.deeplearning.ai/the-batch/issue-285/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "We’re thinking: Although humanoid robots generate a lot of excitement, they’re still in an early stage of development, and businesses are still working to identify and prove concrete use cases. For many industrial applications, wheeled robots — which are less expensive, more stable, and better able to carry heavy loads — will remain a sensible choice. But the prospect of machines that look like us and fit easily into environments built for us is compelling."
+    },
+    {
+      "title": "The Batch: Hopes for 2022 from Alexei Efros, Abeba Birhane, Yoav Shoham, Chip Huyen, Matt Zeiler, Wolfram Burgard, Yale Song",
+      "url": "https://www.deeplearning.ai/the-batch/issue-125/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": ". Together, these techniques offer the most promising path to harnessing robots everywhere they would be useful in the real world."
+    },
+    {
+      "title": "The Batch: Walking the Robot Dog, Mistaking German for English, Making Art With an Image Classifier, Zero-Shot Object Detection",
+      "url": "https://www.deeplearning.ai/the-batch/issue-100/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "A reinforcement learning system enabled a four-legged robot to amble over unfamiliar, rapidly changing terrain.\nWhat’s new: Researchers at UC Berkeley, Facebook, and Carnegie Mellon developed Rapid Motor Adaptation (RMA). The system enabled a Unitree Robotics A1 to negotiate changing conditions and unexpected obstacles nearly in real time. The machine traversed muddy trails, bushy backcountry, and an oil-slicked plastic sheet without falling."
+    },
+    {
+      "title": "Hopes for AI in 2020: Yann LeCun, Kai-Fu Lee, Anima Anandkumar, Richard Socher",
+      "url": "https://www.deeplearning.ai/the-batch/issue-20/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "This is starting to happen. For example, robots can figure out how to use new objects as tools by learning from a dataset of their own interactions plus demonstrations performed by humans guiding a robot’s arm. We’re figuring out how to take advantage of data from other institutions. For instance, we collected a dataset of robots interacting with objects from seven different robot platforms across four institutions."
+    },
+    {
+      "title": "Mistral Living Large, Google's Open Source Challenger, Robot Chemist, Schooling Language Models in Math",
+      "url": "https://www.deeplearning.ai/the-batch/issue-239/",
+      "image_url": "https://www.deeplearning.aidata:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+      "snippet": "What’s new: Researchers at University of Amsterdam built RoboChem, an integrated robotic system that learned to design light-activated chemical reactions while achieving optimal yields and throughput."
+    }
+  ],
+  "gemini_response": "Okay, here's a summary of recent advancements in robotics based on the provided information:\n\n**Key Trends and Advancements:**\n\n*   **Machine Learning Integration:** The field is moving away from rule-based programming towards machine learning, particularly deep learning and reinforcement learning, to achieve human-level performance in tasks like object recognition, semantic segmentation, and task completion.\n*   **Real-World Training:** There's a growing recognition that simulations and datasets alone aren't sufficient. Training robots in real-world environments is becoming crucial for faster progress.\n*   **Improved Object Manipulation and Perception:** Robots are getting better at identifying, tracking, and manipulating objects. This includes advancements in determining points of interest for grasping and avoiding objects. Object tracking algorithms are improving.\n*   **Faster and More Efficient Control:** New methods, like OracleNet, are improving robotic control, scaling well in complex environments and outperforming traditional algorithms in speed.\n*   **Adaptability and Terrain Negotiation:** Robots are demonstrating improved ability to adapt to changing conditions and navigate unfamiliar terrain, sometimes even in real-time, using techniques like Rapid Motor Adaptation (RMA).\n*   **Tool Use and Learning from Others:** Robots are learning to use new objects as tools by observing human demonstrations and interacting with their environment. Data sharing between institutions is also contributing to this.\n*   **Automation of Chemical Processes:** Robots are being developed for automating tasks in chemistry labs, such as designing chemical reactions and optimizing yields.\n*   **Foundation Models:** Robotic foundation models trained on large datasets are showing promise in quickly adapting robots to new warehouse logistics tasks.\n*   **Assistive Robotics:** Advancements are being made in creating robotic systems that can assist people with limited mobility, for example, through joystick-controlled mechanical arms.\n*   **Rapid Training:** New methods allow quadruped robots to be trained to walk in diverse real-world terrains in a short amount of time (e.g., 20 minutes).\n*   **Addressing Real-World Challenges:** Researchers are actively working to bridge the gap between simulated environments and the complexities of physical robots, including addressing control latencies.\n\n**Specific Examples Highlighted:**\n\n*   Covariant's AI-driven robotic arms used in warehouses for sorting items.\n*   A four-legged robot using Rapid Motor Adaptation (RMA) to navigate challenging terrains.\n*   RoboChem, a robotic system that learns to design light-activated chemical reactions.\n*   A Stanford-developed joystick control system for a seven-jointed mechanical arm.\n\n**Considerations:**\n\n*   While humanoid robots are exciting, wheeled robots are currently more practical for many industrial applications due to their stability, cost-effectiveness, and ability to carry heavy loads.\n*   The potential for robots in elder care and logistics is being explored, particularly for repetitive or physically demanding tasks.",
+  "duration": 4.79
+}
