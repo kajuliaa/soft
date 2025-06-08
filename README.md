@@ -2,21 +2,32 @@
 This application retrieves latest information from `The Batch` and answer users question in field of AI News.
 
 ## Instructions to run
-get api key for Gemini https://aistudio.google.com/apikey
-create .env and paste your api key there
+1. Get Gemini API Key:
+   [Get from Google AI Studio](https://aistudio.google.com/apikey)
 
-```bash
-GEMINI_API_KEY=your_api_key_here
-```
-
-Install Ollama
-install embedding model
-
-1. Ingest the articles
+2. Create `.env` file and paste your API key
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+3. Install [Ollama](https://ollama.com/)  and load `mxbai-embed-large` model
+4. Create enviroment and install dependencies
+   - conda
+    ```bash
+   conda create -n ai-rag-env python=3.10
+   conda activate ai-rag-env
+   pip install -r requirements.txt
+    ```
+   - venv (version for Linux/macOS)
    ```bash
+   python -m venv ai-rag-env
+   source ai-rag-env/bin/activate
+   pip install -r requirements.txt
+   ```
+5. Scrape and ingest the articles
+```bash
 python ingestion.py
 ```
-2. run the streamlit
+6. Run the streamlit
 ```bash
 streamlit run app.py
 ```
