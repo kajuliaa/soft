@@ -120,3 +120,4 @@ Note: Run ingestion.py once before using the application to ingest the initial d
 # Limitations
 - Only the first image of each article is currently extracted. Some articles contain multiple images which should also be included in future updates
 - Evaluation with other techniques can be performed
+- Cloud deployment is currently not supported, as Ollama models are designed for local use and require a custom server setup that is not easily compatible with standard cloud platforms
