@@ -5,29 +5,33 @@ This application retrieves latest information from `The Batch` and answer users 
 1. Get Gemini API Key:
    [Get from Google AI Studio](https://aistudio.google.com/apikey)
 
-2. Create `.env` file and paste your API key
+2. Create `.env` file and paste your API key:
    ```env
    GEMINI_API_KEY=your_api_key_here
    ```
-3. Install [Ollama](https://ollama.com/)  and load `mxbai-embed-large` model
-4. Create enviroment and install dependencies
-   - conda
+3. Install [Ollama](https://ollama.com/)  and load `mxbai-embed-large` model.
+4. Create enviroment and install dependencies:
+   - `conda`
     ```bash
    conda create -n ai-rag-env python=3.10
    conda activate ai-rag-env
    pip install -r requirements.txt
     ```
-   - venv (version for Linux/macOS)
+   - `venv` (version for Linux/macOS)
    ```bash
    python -m venv ai-rag-env
    source ai-rag-env/bin/activate
    pip install -r requirements.txt
    ```
-5. Scrape and ingest the articles
+5. Install Playwright:
+```bash
+playwright install
+```
+6. Scrape and ingest the articles:
 ```bash
 python ingestion.py
 ```
-6. Run the streamlit
+7. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
@@ -40,10 +44,10 @@ streamlit run app.py
 
 
 ### `ingestion.py` - Article Ingestion
-- Scrapes with Chronium via Playwright news articles and metadata such as image link and article title
-- splits text into chuncks for improved semantic retrieval and not to execeed LLm access
-- embeds chuncks with `mxbai-embed-large` from Ollama, Generates a UUID for each article to keep chunks grouped correctly
-- stores chuncks in ChromaDB
+- Uses Chromium via Playwright to scrape news articles and metadata (image URL, article title)
+- Splits article text into chunks for improved semantic retrieval and to stay within LLM context limits
+- Embeds chunks using `mxbai-embed-large` via Ollama and assigns a UUID to group chunks per article
+- Stores chunks in ChromaDB
 - Automatically follows pagination via “Older Posts” link for full data coverage
   #### Methods
   `scrape_articles()`
@@ -62,57 +66,56 @@ streamlit run app.py
   - Embeds all chunks
   - Persists them into ChromaDB
 
-
-
-
-Before using the application. Ingestion.py script need to be run to collect the data.
+Note: Run ingestion.py once before using the application to ingest the initial dataset.
 
 ### `answer.py`
-- uses same embedding model from ollama for question of the user to be compatible with the articles embeddings
-- rag pipeline
-- accept a user quera, transforms it in embedding
-- finds top 20 relevant chuncks from db (why 20)
-- groups chucnks by article id, to keep chuncks from one article together
-- combines text chunks, prompt and image links in single prompt
-- Image URLs are included in the prompt, enabling the LLM to consider visual information
+- Uses the same embedding model (`mxbai-embed-large`) to ensure query compatibility
+- Accepts a user query and converts it into an embedding
+- Retrieves top 20 most similar chunks from the database
+- Groups chunks by article ID to keep related content together
+- Combines grouped chunks, image URLs, and text into a single prompt
 - Sends the constructed prompt with images to Gemini Flash 2 via ChatGoogleGenerativeAI
     #### Methods
   `build_prompt(grouped_articles)`
-  - Constructs a formatted prompt string
-  - Image URLs + Related text content per article
+  - Constructs a formatted prompt string with images and related content
     
   `run(query)`
   - Embeds user query
   - Performs `similarity_search(k=20)`
   - Groups retrieved chunks by `article_id`
-  - Calls `build_prompt()`
   - Sends prompt to Gemini LLM
  
   `run_rag_pipeline(query)`
   - Running the RAG pipeline
 
 ### `app.py`
-  - provides interactive interface
-  -   accepts user queries and triggers the RAG pipeline
-  -   displays gemini response + relevant articles with corresponding images
-       
-  -Due to not all images are extracted correct, skips not available images
+  - Provides an interactive web interface
+  - Accepts user questions and triggers the RAG pipeline
+  - Displays Gemini’s answer with relevant articles and image previews    
+  - Skips unavailable or missing images to avoid rendering errors
+
 ### `evaluation.py`
-- creates a dict to future assesment with the structure: query, retrieval(retrieved chuncks of articles), generative ( what LLM responsed), generation time.
-#### Possible future improvements
-- retrieval quality
-   - Precision@k, Recall@k, MRR — How well the system ranks relevant articles
+- Generates a dictionary for future assessment with the following structure:
+  ```python
+   {
+  "query": ...,
+  "retrieval": [...],  # Retrieved article chunks
+  "generative": ...,   # LLM response
+  "generation_time": ...
+   }
+
+  ```
+#### Potential Future Metrics
+- Retrieval Quality
+   - Precision@k, Recall@k
 - Answer Quality 
-   - ROUGE, BLEU, or BERTScore — Against gold-standard responses
+   - ROUGE, BLEU, or BERTScore 
 
 
 
 
 
 
-## Future improvements
-- evaluate Precision@k, Recall@k, MRR — to assess the ranking quality for retrieval quality
-- ROUGE, BLEU, or BERTScore vs. reference answers for answer quality
-
-# Improvements
-- all images from article should be get, not only first one (saw already after ingestion, that article can contain multiple images)
+# Limitations
+- Only the first image of each article is currently extracted. Some articles contain multiple images which should also be included in future updates
+- Evaluation with other techniques can be performed
