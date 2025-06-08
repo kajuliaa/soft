@@ -1,7 +1,17 @@
 # Retrieval-Augmented Question Answering System
-This application retrieves latest information from `The Batch` and answer users question in field of AI News.
+This project implements a Retrieval-Augmented Generation system that answers user queries based on recent AI news articles scraped from The Batch. 
 
 DEMO: https://streamable.com/sci6di
+## 🛠️ Technology Stack
+
+| Layer               | Tool/Model                        | Reasoning                                                                 |
+|--------------------|-----------------------------------|---------------------------------------------------------------------------|
+| **Embedding Model**| `mxbai-embed-large` (via Ollama)  | Open-source, locally runnable, high-quality text embedding for semantic retrieval. |
+| **Vector Database**| ChromaDB                          | Lightweight, persistent vector store with metadata filtering capabilities. |
+| **Web Scraping**   | Playwright                        | Handles dynamic content and JavaScript-rendered pages; supports full browser control. |
+| **LLM (Generation)**| Gemini Flash 2 via `google.generativeai` | Fast, multimodal (text + image), cost-effective, and good for real-time applications. |
+| **Frontend UI**    | Streamlit                         | Simple, fast web app development; ideal for prototyping ML applications. |
+
 
 ## Instructions to run
 1. Get Gemini API Key:
