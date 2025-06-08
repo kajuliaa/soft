@@ -52,3 +52,5 @@ python ingestion.py
 ```bash
 streamlit run app.py
 ```
+# Improvements
+- all images from article should be get, not only first one
